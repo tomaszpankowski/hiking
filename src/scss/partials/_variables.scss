@@ -1,13 +1,48 @@
 $prefix: "../../";
-$bg__error-img: $prefix+"img/error.jpg";
+$bg__book-img: $prefix+"img/book/book-s1.jpg";
+$bg__camps-img: 
+    $prefix+"img/camps/camps-s1.jpg",
+    $prefix+"img/camps/camps-s2.jpg",
+    $prefix+"img/camps/camps-s3.jpg",
+    $prefix+"img/camps/camps-s4.jpg";
 $bg__comingsoon-img: $prefix+"img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg";
+$bg__error-img: $prefix+"img/error.jpg";
+$bg__hikings-img: 
+    $prefix+"img/hikings/hikings-s1.jpg",
+    $prefix+"img/hikings/hikings-s2.jpg",
+    $prefix+"img/hikings/hikings-s3.jpg";
+$bg__index-img: $prefix+"img/index/index-s1.jpg";
 $bg__privacy-img: $prefix+"img/privacy.jpg";
+$bg__tips-img: 
+    $prefix+"img/tips/tips-s1.jpg",
+    $prefix+"img/tips/tips-s2.jpg",
+    $prefix+"img/tips/tips-s3.jpg",
+    $prefix+"img/tips/tips-s4.jpg";
+$bg__user-img: $prefix+"img/user/user-s1.jpg";
 $bg__init:
-    "error",
+    "book",
+    "camps",
     "comingsoon",
-    "privacy";
+    "contact",
+    "error",
+    "hikings",
+    "index",
+    "privacy",
+    "tips",
+    "user";
 $classes_init:
-    $bg__error-img,
+    $bg__book-img,
+    $bg__camps-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__contact-img,
+    $bg__error-img,
+    $bg__hikings-img,
+    $bg__index-img,
+    $bg__privacy-img,
+    $bg__tips-img,
+    $bg__user-img;
 $footer-height: 57px;
+$text__shadow: 1px 1px 3px #333;

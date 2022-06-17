@@ -1,1 +1,90 @@
 @include aoa-bg-series($bg__init,$classes_init);
+
+.camps{
+    &-s4{
+        background-blend-mode: multiply !important;
+        background-color: #444 !important;
+    }
+}
+.contact{
+    &-s1{
+        background-blend-mode: multiply !important;
+        background-color: #999 !important;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+.tips{
+    &-s2,&-s4{
+        background-blend-mode: multiply !important;
+        background-color: #444 !important;
+    }
+}
+textarea{
+    resize: none;
+}
+nav{
+    z-index: 10;
+}
+
+@media all and (max-width: 767px){
+    .camps,.hikings{
+        &-s1,&-s2,&-s3{
+            * {
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-blend-mode: multiply !important;
+            background-color: #999 !important;
+        }
+        &-s2{
+            background-position: right!important;
+        }
+    }
+    .contact{
+        &-s1{
+            * {
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-blend-mode: multiply !important;
+            background-color: #999 !important;
+        }
+    }
+    .index{
+        &-s1{
+            * {
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-blend-mode: multiply !important;
+            background-color: #999 !important;
+            background-position: left!important;
+        }
+    }
+    .navbar{
+        &-toggler{
+            background-color: #666;
+            border-color: #333;
+        }
+        &-nav{
+            background-color: #666;
+            border: 1px solid #333;
+            opacity: 0.9;
+            padding: 10px
+        }
+    }
+    .tips{
+        &-s1,&-s3{
+            * {
+                color: #fff!important;
+                text-shadow: $text__shadow;
+            }
+            background-blend-mode: multiply !important;
+            background-color: #999 !important;
+        }
+    }
+}

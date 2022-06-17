@@ -7,15 +7,15 @@ import Table from "../../node_modules/react-bootstrap/Table";
 class CampsS2 extends Component{
     render(){
         return(    
-            <Container fluid className="d-flex minh-50vh bg-white align-items-center py-5">
+            <Container fluid className="camps-s2 d-flex minh-50vh bg-white align-items-center py-5 border-top border-dark">
                 <Row className="mx-0 w-100">
                     <Col xs={12} md={{span:6,offset:6}} lg={{span:5,offset:7}} 
                         className="minh-50vh d-flex align-items-center">
-                        <div className="w-100 text-center text-md-start">
-                            <h2 className="dispaly-6 fw-bold text-secondary">
+                        <div className="w-100 text-center text-md-start text-shadow">
+                            <h2 className="dispaly-6 fw-bold text-white">
                                 Lorem ipsum
                             </h2>
-                            <p className="text-muted">
+                            <p className="text-white">
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
                                 doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
                                 veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
@@ -23,7 +23,7 @@ class CampsS2 extends Component{
                             </p>
                             <Table hover striped>
                                 <thead>
-                                    <tr className="text-secondary">
+                                    <tr className="text-white">
                                         <th className="w-25">Name</th>
                                         <th className="w-50">Description</th>
                                         <th className="w-25">Price</th>
